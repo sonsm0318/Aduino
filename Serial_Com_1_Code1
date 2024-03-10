@@ -1,9 +1,10 @@
 void setup(){
   Serial.begin(9600);
-  Seriall.print("Hello World!!");
+  Serial.print("Hello World!!");
 }
 
 void loop(){}
 
 
-실행 결과 : Hello World!!
+실행 결과 :
+Hello World!!
