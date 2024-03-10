@@ -1,4 +1,4 @@
-char a = a ;
+char a = 'a' ;
 float a_dot= 1.245 ;
 
 void setup(){
@@ -13,5 +13,5 @@ void loop(){}
 
 
 실행 결과 :
-a:
+a:a
 a_dot:1.25
