@@ -1,0 +1,24 @@
+void setup(){
+  Serial.begin(9600);
+  Serial.println("Hello World!!");
+  Serial.println("Hello World!!");
+}
+
+void loop(){}
+
+
+실행 결과 :
+Hello World!!
+Hello World!!
+
+
+void setup(){
+  Serial.begin(9600);
+  Serial.println(24);
+}
+
+void loop(){}
+
+
+실행 결과:
+24
