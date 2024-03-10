@@ -1,0 +1,22 @@
+char b;
+
+void setup(){
+  Serial.begin(9600);
+}
+
+void loop(){
+  if(Serial.available()>0){
+    b = Serial.read();
+    Serial.print("b:");
+    Serial.println(b);
+    }
+  }
+
+입력 값: abc
+
+실행 결과 :
+b:a
+b:b
+b:c
+b:
+
